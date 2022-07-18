@@ -5,6 +5,7 @@ import {Form} from '../components'
 
 const Home: NextPage = () => {
   return (
+    
     <div className="bg-gray-400 h-screen">
       <Head>
         <title>Sign up Form</title>
