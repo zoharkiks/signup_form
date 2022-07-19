@@ -5,7 +5,11 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        hum: ["HUM777", "cursive"],
+      },
+    },
   },
   plugins: [
     require("@tailwindcss/forms")({

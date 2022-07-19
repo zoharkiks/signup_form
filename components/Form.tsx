@@ -8,7 +8,7 @@ const Form = () => {
   const [data, setData] = useState("");
 
   return (
-    <div className="px-6 py-10">
+    <div className="px-6 py-10 ">
       <div className="bg-white rounded-[26px] pl-6 ">
         <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
           <div className="flex">
@@ -31,7 +31,7 @@ const Form = () => {
           </div>
 
           {/* Agreement */}
-          <div className="flex">
+          <div className="flex ">
             <input type="checkbox" name="" id="" />
             <span>
               I have read and agreed to the Terms of Service and Privacy Policy

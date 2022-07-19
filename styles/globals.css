@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "HUM777";
+    src: url("../public/fonts/HUM777K.ttf");
+  }
