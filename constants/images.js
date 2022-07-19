@@ -1,2 +1,3 @@
 import logo from '../assets/logo.png'
-export default{logo}
+import vr from '../assets/vr.png'
+export default{logo,vr}
