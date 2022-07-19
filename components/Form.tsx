@@ -74,7 +74,7 @@ const Form = () => {
         </form>
       </div>
       {/* Branding */}
-      <div className=" relative bottom-[1.25rem] font-hum  text-white text-3xl text-center bg-green rounded-[26px]  flex flex-col justify-center items-center pt-12 pb-9">
+      <div className=" space-y-3 relative bottom-[1.25rem] font-hum  text-white text-3xl text-center bg-green rounded-[26px]  flex flex-col justify-center items-center pt-12 pb-9">
         <img className="h-11 w-[63px]" src={images.logo.src} alt="" />
         <h1>Defy the Past Step into the Future</h1>
       </div>
