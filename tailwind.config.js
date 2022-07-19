@@ -10,12 +10,12 @@ module.exports = {
     colors: {
       'white': '#ffffff',
       'black':'#000000',
-      'gray-text':'BEBCBC',
+      'gray-text':'#BEBCBC',
       'gray-bg': '#CBCBCB',
       'gray-light': '#F3F3F3',
-      'gray-checkbox':'CAC7C7',
+      'gray-checkbox':'#CAC7C7',
       'blue':'#3BADCD',
-      'green':'#3BADCD'
+      'green':'#51C8BC'
     },
     extend: {
       fontFamily: {

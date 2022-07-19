@@ -9,6 +9,6 @@
 
   @layer components{
     .input-text{
-        @apply focus:outline-none border-b-2 border-gray-light placeholder:font-poppins placeholder:font-medium placeholder:text-xs pb-[5px] w-[10rem] 
+        @apply focus:outline-none border-b-2 border-gray-light placeholder:text-gray-text placeholder:font-poppins placeholder:font-medium placeholder:text-xs pb-[5px] w-[10rem] placeholder:tracking-wide 
     }
   }
