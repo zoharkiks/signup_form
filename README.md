@@ -1,23 +1,20 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">Modern Signup Form </h3> 
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center">
+<img src="https://i.ibb.co/0fKK2Dh/Modern-Signup-Form.png" alt="signup" height="75%" width="75%" >
+</p>
 
-## Deploy your own
+## Introduction 🚀
+<p>A responsive and complete functional modern signup form using React Hooks Form and Tailwind CSS. Used a figma design by <a href="https://www.figma.com/community/file/1129769913794092795" target="_blank">Henry Udonsi</a> </p>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<h3 align="left">Languages and Tools 💻 </h3>
+<p>
+<a href="https://nextjs.org/" target="_blank"> <img src="https://cdn3.iconfinder.com/data/icons/teenyicons-outline-vol-2/15/nextjs-128.png" alt="c" width="7%" height="7%"/></a>
+<a href="https://code.visualstudio.com/" target="_blank"> <img src="https://img.icons8.com/fluent/344/visual-studio-code-2019.png" alt="c" width="7%" height="7%"/></a>
+<a href="https://tailwindcss.com/" target="_blank"> <img src="https://cdn3.iconfinder.com/data/icons/teenyicons-outline-vol-3/15/tailwind-128.png" alt="c" width="7%" height="7%"/></a>
+</p>
+<h3 align="left">How to Install ❓ </h3>
 
-## How to use
+<img src="https://i.ibb.co/ySbxh1v/How-to-Install.png" alt="How-to-Install" height="60%" width="60%" >
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
