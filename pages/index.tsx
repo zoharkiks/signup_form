@@ -6,7 +6,7 @@ import {Form} from '../components'
 const Home: NextPage = () => {
   return (
     
-    <div className="bg-gray-400 h-screen">
+    <div className="bg-gray-bg h-screen">
       <Head>
         <title>Sign up Form</title>
         <link rel="icon" href="/favicon.ico" />

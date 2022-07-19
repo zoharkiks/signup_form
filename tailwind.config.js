@@ -7,6 +7,16 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    colors: {
+      'white': '#ffffff',
+      'black':'#000000',
+      'gray-text':'BEBCBC',
+      'gray-bg': '#CBCBCB',
+      'gray-light': '#F3F3F3',
+      'gray-checkbox':'CAC7C7',
+      'blue':'#3BADCD',
+      'green':'#3BADCD'
+    },
     extend: {
       fontFamily: {
         hum: ["HUM777", "cursive"],

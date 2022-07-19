@@ -9,23 +9,32 @@ const Form = () => {
 
   return (
     <div className="px-6 py-10  ">
-      <div className="bg-white rounded-[26px] pl-6 ">
+      <div className="bg-white rounded-[26px] px-6 pt-[26px] ">
         <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
-          <div className="flex">
-            <h1>Create Account</h1>
-            <select>
-              <option value="">English UK</option>
+          <div className="flex justify-between">
+            <h1 className="font-hum text-2xl ">Create Account</h1>
+            <select className="font-poppins text-xs">
+              <option value="">English (UK)</option>
             </select>
           </div>
-          <div className="flex flex-col">
-            <input type="text" placeholder="Full Name" />
-            <input type="text" placeholder="Email" />
-            <div className="flex">
-              <input type="text" placeholder="Password" />
+          {/* Form Inputs */}
+          <div className="flex flex-col mt-4 space-y-4">
+            <input className="input-text" type="text" placeholder="Full Name" />
+            <input className="input-text" type="text" placeholder="Email" />
+            <div className="flex ">
+              <input
+                className="input-text"
+                type="password"
+                placeholder="Password"
+              />
               <Icon icon="zondicons:view-show" />
             </div>
             <div className="flex">
-              <input type="text" placeholder="Confirm Password" />
+              <input
+                className="input-text"
+                type="password"
+                placeholder="Confirm Password"
+              />
               <Icon icon="zondicons:view-show" />
             </div>
           </div>
@@ -36,7 +45,6 @@ const Form = () => {
             <span>
               I have read and agreed to the Terms of Service and Privacy Policy
             </span>
-            z
           </div>
           {/* Button */}
           <div className="flex justify-center">

@@ -6,3 +6,9 @@
     font-family: "HUM777";
     src: url("../public/fonts/HUM777K.ttf");
   }
+
+  @layer components{
+    .input-text{
+        @apply focus:outline-none border-b-2 border-gray-light placeholder:font-poppins placeholder:font-medium placeholder:text-xs pb-[5px] w-[10rem] 
+    }
+  }
