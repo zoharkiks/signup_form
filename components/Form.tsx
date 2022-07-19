@@ -8,7 +8,7 @@ const Form = () => {
   const [data, setData] = useState("");
 
   return (
-    <div className="px-6 py-10 sm:flex justify-center lg:px-[143px] lg:py-[80px]   ">
+    <div className="px-6 py-10 sm:flex justify-center ]   ">
       <div className="bg-white rounded-[26px] px-6 pt-[26px] pb-3 relative z-10 lg:pl-[90px]   ">
         <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
           <div className="flex justify-end">
@@ -104,7 +104,7 @@ const Form = () => {
         <img className="sm:mb-12 h-11 w-[63px]" src={images.logo.src} alt="" />
         <h1>Defy the Past Step into the Future</h1>
         <img
-          className="hidden object-contain xl:block  z-[12] bottom-[2rem] w-[520px] max-w-none	 h-[330px] relative right-[7rem]"
+          className="hidden object-contain xl:flex  z-[12] bottom-[2rem] w-[520px] max-w-none	 h-[330px] relative right-[3rem]"
           src={images.vr.src}
           alt=""
         />
