@@ -8,7 +8,7 @@ const Form = () => {
   const [data, setData] = useState("");
 
   return (
-    <div className="px-6 py-10 ">
+    <div className="px-6 py-10  ">
       <div className="bg-white rounded-[26px] pl-6 ">
         <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
           <div className="flex">
