@@ -8,13 +8,13 @@ const Form = () => {
   const [data, setData] = useState("");
 
   return (
-    <div className="px-6 py-10 sm:flex justify-center lg:px-[143px] lg:py-[80px]">
+    <div className="px-6 py-10 sm:flex justify-center lg:px-[143px] lg:py-[80px]   ">
       <div className="bg-white rounded-[26px] px-6 pt-[26px] pb-3 relative z-10 lg:pl-[90px]   ">
         <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
           <div className="flex justify-end">
             <select
               {...register("language")}
-              className="font-poppins text-xs sm:text-sm "
+              className="font-poppins text-xs sm:text-sm outline-none "
             >
               <option value="">English (UK)</option>
               <option value="chinese">Chinese</option>
@@ -103,8 +103,11 @@ const Form = () => {
       <div className="hidden sm:w-1/4 md:left-6 space-y-3 sm:order-first sm:bottom-0  relative bottom-[1.25rem] font-hum  text-white text-3xl text-center bg-green rounded-[26px]  md:flex flex-col justify-center items-center sm:items-start sm:justify-start sm:p-6  pt-12 pb-9">
         <img className="sm:mb-12 h-11 w-[63px]" src={images.logo.src} alt="" />
         <h1>Defy the Past Step into the Future</h1>
-        <img className="hidden xl:block  z-[12] bottom-[2rem] w-[520px] max-w-none	 h-[320px] relative right-[7rem]" src={images.vr.src} alt="" />
-        
+        <img
+          className="hidden object-contain xl:block  z-[12] bottom-[2rem] w-[520px] max-w-none	 h-[330px] relative right-[7rem]"
+          src={images.vr.src}
+          alt=""
+        />
       </div>
     </div>
   );

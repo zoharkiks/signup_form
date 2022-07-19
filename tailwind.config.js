@@ -18,6 +18,7 @@ module.exports = {
       'green':'#51C8BC'
     },
     extend: {
+      
       fontFamily: {
         hum: ["HUM777", "cursive"],
         poppins: ["Poppins", ...defaultTheme.fontFamily.sans]
