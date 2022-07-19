@@ -8,13 +8,13 @@ const Form = () => {
   const [data, setData] = useState("");
 
   return (
-    <div className="px-6 py-10 sm:flex justify-center ]   ">
-      <div className="bg-white rounded-[26px] px-6 pt-[26px] pb-3 relative z-10 lg:pl-[90px]   ">
+    <div className="justify-center px-6 py-10 sm:flex    ">
+      <div className="relative z-10 rounded-[26px] bg-white px-6 pt-[26px] pb-3 lg:pl-[90px]   ">
         <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
           <div className="flex justify-end">
             <select
               {...register("language")}
-              className="font-poppins text-xs sm:text-sm outline-none "
+              className="font-poppins text-xs outline-none sm:text-sm "
             >
               <option value="">English (UK)</option>
               <option value="chinese">Chinese</option>
@@ -22,12 +22,12 @@ const Form = () => {
             </select>
           </div>
           <div className="flex justify-between">
-            <h1 className="font-hum text-2xl sm:text-3xl lg:text-[34px] lg:mt-[52px] ">
+            <h1 className="font-hum text-2xl sm:text-3xl lg:mt-[52px] lg:text-[34px] ">
               Create Account
             </h1>
           </div>
           {/* Form Inputs */}
-          <div className="flex flex-col mt-4 lg:mt-[31px] space-y-4  ">
+          <div className="mt-4 flex flex-col space-y-4 lg:mt-[31px]  ">
             <input
               {...register("fullName")}
               className="input-text"
@@ -59,9 +59,9 @@ const Form = () => {
           </div>
 
           {/* Agreement */}
-          <div className="flex  space-x-4 mt-6 items-center  ">
+          <div className="mt-6  flex items-center space-x-4  ">
             <input className="" type="checkbox" id="" />
-            <span className="text-gray-text text-xs font-poppins font-medium lg:w-[20rem]  ">
+            <span className="font-poppins text-xs font-medium text-gray-text lg:w-[20rem]  ">
               I have read and agreed to the Terms of Service and Privacy Policy
             </span>
           </div>
@@ -69,21 +69,21 @@ const Form = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="bg-blue font-poppins font-extrabold text-white text-xs w-[149px] h-[35px] rounded-[5px] mt-5 lg:w-full"
+              className="mt-5 h-[35px] w-[149px] rounded-[5px] bg-blue font-poppins text-xs font-extrabold text-white lg:w-full"
             >
               Create Account
             </button>
           </div>
-          <div className="flex justify-center items-center mt-3">Or</div>
+          <div className="mt-3 flex items-center justify-center">Or</div>
           {/* Signup buttons */}
-          <div className="flex flex-col justify-center items-center space-y-2  mt-4 lg:flex-row lg:space-y-0 lg:px-[100px] lg:space-x-10 lg:mt-4  ">
-            <div className="flex justify-center items-center space-x-3 ">
+          <div className="mt-4 flex flex-col items-center justify-center  space-y-2 lg:mt-4 lg:flex-row lg:space-y-0 lg:space-x-10 lg:px-[100px]  ">
+            <div className="flex items-center justify-center space-x-3 ">
               <Icon icon="bi:google" />
               <button className="font-poppins text-sm font-light ">
                 Signup with Google
               </button>
             </div>
-            <div className="flex justify-center items-center space-x-4">
+            <div className="flex items-center justify-center space-x-4">
               <Icon icon="bi:facebook" />
               <button className="font-poppins text-sm font-light lg:w-max">
                 Signup with Facebook
@@ -92,7 +92,7 @@ const Form = () => {
           </div>
         </form>
         {/* Existing Account */}
-        <div className="flex justify-center font-poppins font-medium text-[14px] text-gray-text mt-4 lg:mt-8 ">
+        <div className="mt-4 flex justify-center font-poppins text-[14px] font-medium text-gray-text lg:mt-8 ">
           <p>
             Already have an account?
             <span className="text-blue"> Log In</span>
@@ -100,11 +100,11 @@ const Form = () => {
         </div>
       </div>
       {/* Branding */}
-      <div className="hidden sm:w-1/4 md:left-6 space-y-3 sm:order-first sm:bottom-0  relative bottom-[1.25rem] font-hum  text-white text-3xl text-center bg-green rounded-[26px]  md:flex flex-col justify-center items-center sm:items-start sm:justify-start sm:p-6  pt-12 pb-9">
-        <img className="sm:mb-12 h-11 w-[63px]" src={images.logo.src} alt="" />
+      <div className="relative bottom-[1.25rem] hidden flex-col items-center justify-center  space-y-3 rounded-[26px] bg-green  pt-12 pb-9 text-center font-hum text-3xl  text-white sm:bottom-0 sm:order-first sm:w-1/4 sm:items-start sm:justify-start sm:p-6  md:left-6 md:flex">
+        <img className="h-11 w-[63px] sm:mb-12" src={images.logo.src} alt="" />
         <h1>Defy the Past Step into the Future</h1>
         <img
-          className="hidden object-contain xl:flex  z-[12] bottom-[2rem] w-[520px] max-w-none	 h-[330px] relative right-[3rem]"
+          className="relative bottom-[2rem] right-[3rem]  z-[12] hidden h-[330px] w-[520px]	 max-w-none object-contain xl:flex"
           src={images.vr.src}
           alt=""
         />
