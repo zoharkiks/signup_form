@@ -7,6 +7,20 @@ const Form = () => {
   const { register, handleSubmit } = useForm();
   const [data, setData] = useState("");
 
+
+// Show/Hide Password
+
+  const [passwordShown, setPasswordShown] = useState(false)
+  const [confirmPasswordShown, setConfirmPasswordShown] = useState(false)
+
+  const togglePasswordVisibility = () => {
+    setPasswordShown(passwordShown ? false : true)
+  }
+  const toggleConfirmPasswordVisibility = () => {
+  setConfirmPasswordShown(confirmPasswordShown ? false : true)
+
+  }
+
   return (
     <div className="justify-center px-6 py-10 sm:flex    ">
       <div className="relative z-10 rounded-[26px] bg-white px-6 pt-[26px] pb-3 lg:pl-[90px]   ">
@@ -43,18 +57,18 @@ const Form = () => {
             <div className="flex ">
               <input
                 className="input-text"
-                type="password"
+                type={passwordShown ? "text" : "password"}
                 placeholder="Password"
               />
-              <Icon className="text-gray-text" icon="zondicons:view-show" />
+              <Icon onClick={togglePasswordVisibility} className="text-gray-text" icon="zondicons:view-show" />
             </div>
             <div className="flex">
               <input
                 className="input-text"
-                type="password"
+                type={confirmPasswordShown ? "text" : "password"}
                 placeholder="Confirm Password"
               />
-              <Icon className="text-gray-text" icon="zondicons:view-show" />
+              <Icon onClick={toggleConfirmPasswordVisibility} className="text-gray-text" icon="zondicons:view-show" />
             </div>
           </div>
 
