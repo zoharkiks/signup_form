@@ -109,7 +109,7 @@ const Form = () => {
         <div className="mt-4 flex justify-center font-poppins text-[14px] font-medium text-gray-text lg:mt-8 ">
           <p>
             Already have an account?
-            <span className="text-blue"> Log In</span>
+            <span className="text-blue cursor-pointer"> Log In</span>
           </p>
         </div>
       </div>
