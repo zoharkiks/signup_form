@@ -48,7 +48,8 @@ const Form = () => {
               type="text"
               placeholder="Full Name"
             />
-            <input
+           
+                 <input
               {...register("email")}
               className="input-text"
               type="email"
@@ -117,11 +118,12 @@ const Form = () => {
       <div className="relative bottom-[1.25rem] hidden flex-col items-center justify-center  space-y-3 rounded-[26px] bg-green  pt-12 pb-9 text-center font-hum text-3xl  text-white sm:bottom-0 sm:order-first sm:w-1/4 sm:items-start sm:justify-start sm:p-6  md:left-6 md:flex">
         <img className="h-11 w-[63px] sm:mb-12" src={images.logo.src} alt="" />
         <h1>Defy the Past Step into the Future</h1>
-        <img
-          className="relative bottom-[2rem] right-[3rem]  z-[12] hidden h-[330px] w-[520px]	 max-w-none object-contain xl:flex"
+      <img
+          className="relative bottom-[2rem] left-[3rem]  z-[12] hidden h-[330px] w-[520px] object-cover	 max-w-full  xl:flex"
           src={images.vr.src}
           alt=""
         />
+       
       </div>
     </div>
   );
